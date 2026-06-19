@@ -1,0 +1,143 @@
+.trainings-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+
+.training-link-group {
+	text-decoration: none;
+}
+
+.training-container {
+	width: 100%;
+}
+
+.training-card {
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border-radius: 5px;
+	position: relative;
+	padding: 1.5rem 1.75rem;
+	width: 300px;
+	max-width: 300px;
+	margin: 0 auto;
+	min-height: 250px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	cursor: default;
+	transition: all 0.3s ease;
+}
+
+.training-link-group .training-card {
+	cursor: pointer;
+}
+
+.training-card:hover {
+	transform: translateY(-7px);
+}
+
+.training-card:hover .training-title {
+	color: var(--nav-blue);
+}
+
+.top-training {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1.5rem;
+}
+
+.training-icon {
+	font-size: 2rem;
+	color: var(--nav-blue);
+	display: flex;
+	align-items: center;
+}
+
+.training-year {
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: var(--white);
+	background-color: var(--nav-deep-blue);
+	padding: 0.3rem 0.7rem;
+	border-radius: 100vh;
+}
+
+.mid-training {
+	flex-grow: 1;
+	margin-bottom: 1rem;
+}
+
+.training-title {
+	font-size: 1.05rem;
+	font-weight: 700;
+	margin-bottom: 0.4rem;
+	line-height: 1.4;
+	transition: color 0.3s ease;
+}
+
+.training-issuer {
+	font-size: 0.75rem;
+	color: var(--nav-blue);
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	margin-bottom: 0.75rem;
+	text-transform: uppercase;
+}
+
+.training-desc {
+	font-size: 0.75rem;
+	line-height: 1.6;
+}
+
+.bottom-training {
+	border-top: 1px solid var(--nav-deep-blue);
+	padding-top: 0.75rem;
+}
+
+.training-link {
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+	font-size: 0.75rem;
+	font-weight: 600;
+	color: var(--nav-blue);
+	transition: all 0.3s ease;
+}
+
+.training-card:hover .training-link {
+	color: var(--white);
+}
+
+/* Media Queries */
+@media screen and (max-width: 550px) {
+	.training-card {
+		padding: 1.25rem 1.5rem;
+		min-height: auto;
+	}
+
+	.training-icon {
+		font-size: 1.6rem;
+	}
+
+	.training-title {
+		font-size: 0.95rem;
+	}
+
+	.training-desc {
+		font-size: 0.7rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.training-card {
+		width: 250px;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+}
