@@ -173,7 +173,7 @@ const Navbar = ({ nav, handleNav }) => {
 					</ul>
 					<div className='copy'>
 						<small className='copyright'>
-							© Copyright ©2022 | All rights reserved
+							© Copyright ©2026 | Asley Kate L. Doong
 						</small>
 					</div>
 				</motion.div>
