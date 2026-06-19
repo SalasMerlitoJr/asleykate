@@ -33,7 +33,7 @@ export const TrainingData = [
 	{
 		title: "Dengue Clinical Practice Guidelines Refresher",
 		issuer: "Department of Health - Region X",
-		year: "2023",
+		year: "",
 		desc: "A refresher training on updated clinical guidelines for the diagnosis, management, and prevention of dengue cases.",
 		icon: <GiHealthNormal />,
 		credentialUrl: "",
