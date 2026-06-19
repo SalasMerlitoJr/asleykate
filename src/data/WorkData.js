@@ -28,7 +28,7 @@ export const ReactData = [
 export const VueData = [
 	{
 		title: "Medical Officer III",
-		desc: "Northenn Mindanao Medical Center - Billing and Claims",
+		desc: "Northern Mindanao Medical Center - Billing and Claims",
 		tech: [
 			"Billing",
 			"Revenue",
