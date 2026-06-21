@@ -20,17 +20,19 @@ const Skills = () => {
 						whileInView={skillEffect}
 						initial={{ y: "-80px", opacity: 0 }}
 						className='heading'>
-						{/* <p className='heading-sub-text'>What I work with</p> */}
-						<p className='heading-text'>My Professional Skills</p>
+						<p className='heading-text'>Education</p>
 					</motion.div>
 					<motion.div
 						whileInView={skillEffect}
-						className='skills-box'
+						className='education-list'
 						initial={{ y: "-80px", opacity: 0 }}>
 						{SkillsData.map((el, index) => (
-							<div className='skill-card' key={index}>
-								<div className='skill-icon'>{el.icon}</div>
-								<small className='skill-desc'>{el.name}</small>
+							<div className='education-item' key={index}>
+								<div className='education-bullet'>{el.icon}</div>
+								<div className='education-text'>
+									<h3 className='education-degree'>{el.degree}</h3>
+									<p className='education-institution'>{el.institution}</p>
+								</div>
 							</div>
 						))}
 					</motion.div>

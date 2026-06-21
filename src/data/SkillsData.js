@@ -1,26 +1,16 @@
-import { FaStethoscope, FaHospital, FaHeartbeat } from "react-icons/fa";
-import { GiMicroscope, GiPill, GiSyringe, GiHealthNormal, GiTestTubes, GiCaduceus } from "react-icons/gi";
-import { MdLocalPharmacy } from "react-icons/md";
-import { RiFirstAidKitLine } from "react-icons/ri";
+import { FaGraduationCap } from "react-icons/fa";
 
-export const SkillsData = [
-    // Core Medical Stack
-    { name: "Stethoscope", icon: <FaStethoscope /> },
-    { name: "Hospital", icon: <FaHospital /> },
-    { name: "Heartbeat", icon: <FaHeartbeat /> },
-    { name: "Microscope", icon: <GiMicroscope /> },
-    { name: "Pill", icon: <GiPill /> },
-    { name: "Syringe", icon: <GiSyringe /> },
-
-    // Diagnostics & Lab
-    { name: "Test Tubes", icon: <GiTestTubes /> },
-    { name: "Pharmacy", icon: <MdLocalPharmacy /> },
-    { name: "Health", icon: <GiHealthNormal /> },
-
-    // Emergency & Care
-    { name: "First Aid", icon: <RiFirstAidKitLine /> },
-
-    // Added Icons
-    { name: "Caduceus", icon: <GiCaduceus /> },   // universal medical symbol
-    { name: "DNA", icon: <GiHealthNormal /> },    // represents genetics & modern medicine
+export const EducationData = [
+    {
+        degree: "Doctor of Medicine",
+        institution: "Xavier University - Ateneo de Cagayan\nDr. Jose P. Rizal School of Medicine",
+        icon: <FaGraduationCap />
+    },
+    {
+        degree: "Bachelor of Science in Biology",
+        institution: "Xavier University - Ateneo de Cagayan",
+        icon: <FaGraduationCap />
+    }
 ];
+
+export const SkillsData = EducationData;
